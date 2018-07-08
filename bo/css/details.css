@@ -86,6 +86,7 @@ body .details, body .details a {
     color: #fff;
     background: url('../images/kc_Measure_banner2.png') 100% no-repeat;
 }
+.details-banner .text-box{margin-bottom: 40px;}
 .details-banner .container{padding-top: 50px;padding-bottom: 50px;}
 .details-banner .title{margin-bottom: 26px;font-size: 18px;}
 .details-banner .text-box p{line-height: 25px;font-size: 16px;}
