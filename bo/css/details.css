@@ -1,0 +1,140 @@
+.details {
+    background: #f4f4f4;
+}
+
+body .details, body .details a {
+    color: #323232;
+}
+
+.details .Box {
+    padding: 80px 0 50px 0;
+}
+
+.Box .Box-left {
+    float: left;
+    position: relative;
+    height: 520px;
+    width: 50%;
+    background: #fff;
+}
+
+.Box-left imgBox {
+    position: relative;
+}
+
+.Box-left .imgBox-b {
+    position: absolute;
+    left: 21px;
+    bottom: 31px;
+}
+
+.imgBox-b .b-img {
+    display: inline-block;
+    width: 80px;
+    height: 79px;
+    margin-left: 12px;
+    background: #fff;
+    text-align: center;
+    line-height: 79px;
+    border: solid 1px #eeeeee;
+}
+
+.imgBox-b .b-img {
+    display: inline-block;
+}
+
+.imgBox-b .active {
+    background: #f4f4f4;
+    border: none;
+}
+
+.Box-right {
+    float: right;
+    margin-left: 5%;
+    width: 45%;
+}
+
+.Box-right .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Box-right .title-b {
+    margin: 23px 0 31px
+}
+
+.Box-right .text{
+    font-size: 14px;
+    line-height: 30px;
+}
+.Box-right .btn a{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #df1d1e;
+    color: #fff;
+    border-radius: 4px;
+}
+.Box-right .btn{
+   margin-top: 10%;
+}
+
+.details-banner{
+    width: 100%;
+    position: relative;
+    color: #fff;
+    background: url('../images/kc_Measure_banner2.png') 100% no-repeat;
+}
+.details-banner .container{padding-top: 50px;padding-bottom: 50px;}
+.details-banner .title{margin-bottom: 26px;font-size: 18px;}
+.details-banner .text-box p{line-height: 25px;font-size: 16px;}
+.details-banner  .img{position: absolute;right: 20%;top: 30%;}
+
+@media screen and (min-width:736px) {
+    .swiper-slide .img {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .swiper-slide img {
+        display: inline-block
+    }
+   
+}
+
+@media screen and (max-width:736px) {
+    .details .Box {
+        padding: 30px 20px;
+    }
+    .Box .Box-left {
+        width: 100%;
+        float: none;
+    }
+    .Box .Box-left {
+        height: 520px;
+        width: 100%;
+        background: #fff
+    }
+    .swiper-container {
+        width: 100%;
+        padding: 30px 0;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        line-height: 300px;
+    }
+    .details-banner .img{width: 100px;}
+    .details-banner img{width: 100%}
+
+    .Box-right{
+        float: none;
+        margin:20px;
+       
+    }
+}
+@media screen and (max-width:375px) {
+    .details-banner  .img{right: 10%;}
+    .details-banner .img{width: 60px;}
+}
